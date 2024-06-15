@@ -522,3 +522,42 @@ p {
     margin-right: 20px;
     border-radius: 50% 0% 50% 50%;
 }
+
+/* NEWS LETTER - CONTACT */
+
+.container7 {
+    margin: 0 auto;
+    min-height: 450px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter{
+    z-index: 1;
+    position: relative;
+    height: 300px;
+    width: 90%;
+    background-color: rgba(244, 249, 255, 1);
+    border-radius: 75px;
+    transform: translate();
+}
+
+.hoja{
+    z-index: 0;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: rgba(255, 245, 219, 1);
+    border-radius: 0% 50%;
+    transform: translate(-950px,130px) ;
+}
+
+.dott{
+    z-index: 0;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    transform: translate(960px,-120px);
+}
