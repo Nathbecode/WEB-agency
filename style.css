@@ -117,11 +117,12 @@ h1 {
 
 
 h3 {
-    height: 2px;
-    width: 463px;
-    top: 344px;
-    left: 120px;
-    margin-left: 4px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    color: rgb(7, 7, 7);
+    font-weight: bolder;
 }
 
 p {
@@ -408,8 +409,10 @@ p {
 }
 
 .videor{
+    z-index: 1;
     border-radius: 20px;
     box-shadow: 4px 4px 24px ;
+    position: relative;
 }
 
 .rect26 {
@@ -433,4 +436,89 @@ p {
 
 .contain5>p{
     transform: translateY(-60px);
+    padding-left: 25px;
+}
+
+.circle{
+    z-index: 0;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: rgba(255, 245, 219, 1);
+    border-radius: 50%;
+    transform: translate(495px,-65px);
+}
+
+.container6{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 130px 400px;
+    gap: 20px;
+}
+
+.titre{
+    z-index: 1;
+    position: relative;
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titre>h1 ,.titre>p{
+    transform: translateY(70px);
+}
+
+.ellipse872{
+    width: 120px;
+    transform: translate(-500px,350px);
+}
+
+.img71{
+    padding: 20px;
+}
+
+/* swipper */
+
+.swiper {
+    z-index: 1;
+    position: relative;
+    width: 700px;
+    height: 380px;
+    grid-column: 1 / 3;
+}
+
+.flexslide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client1{
+    z-index: 1;
+    transform: translateY(27px);
+    width: 365px;
+    margin-right: 20px;
+}
+.advise1{
+    padding: 20px;
+    flex: 1;
+}
+.dot{
+    z-index: 0;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    transform: translate(-210px,-220px);
+}
+
+.client2{
+    z-index: 1;
+    transform: translateY(27px);
+    width: 290px;
+    height: 290px;
+    margin-right: 20px;
+    border-radius: 50% 0% 50% 50%;
 }

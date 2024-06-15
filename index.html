@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <title>Web design</title>
 </head>
 <body>
@@ -26,7 +27,6 @@
         <div class="container2">
             <div class="news">
                 <h1>A Digital Product Agency</h1>
-                <h3></h3>
                 <p>Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
                 <button id="openModalBtn">Contact Now</button>
                 <div id="myModal" class="modal">
@@ -117,6 +117,7 @@
     <section class="container5">
         <div class="video">
             <iframe class="videor" width="560" height="315" src="https://www.youtube.com/embed/cLOT0APQzDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="circle"></div>
         </div>
         <div class="contain5">
             <img src="Rectangle 26.png" alt="" class="rect26">
@@ -124,11 +125,104 @@
             <p>Our Business Plan is a written document describing a company's core business activites, Objectives, and how it plans to achieve its goals. Our goal is to provide our client high quality Product with modern idea accordingly their budgets and according thir reuirements.</p>
         </div>
     </section>
+    <section class="container6">
+        <div class="titre">
+            <h1>What our happy client say</h1>
+            <p>Several selected clients, who already believe in our service.</p>
+            <img src="Ellipse 87.png" alt="" class="ellipse872">
+        </div>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="flexslide">
+                        <img src="unsplash_MTZTGvDsHFY.png" alt="" class="client1">
+                        <div class="advise1">
+                            <h3>Matthew Paul</h3> <br>
+                            <p>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
+                            <img src="Dot.png" alt="" class="dot">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flexslide">
+                        <img src="Capture.PNG" alt="" class="client2">
+                        <div class="advise1">
+                            <h3>Christopher Nolan</h3> <br>
+                            <p>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
+                            <img src="Dot.png" alt="" class="dot">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flexslide">
+                        <img src="Capture2.PNG" alt="" class="client2">
+                        <div class="advise1">
+                            <h3>Chinthya Niman</h3> <br>
+                            <p>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
+                            <img src="Dot.png" alt="" class="dot">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flexslide">
+                        <img src="Capture3.PNG" alt="" class="client2">
+                        <div class="advise1">
+                            <h3>Consuelo Fonseca</h3> <br>
+                            <p>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
+                            <img src="Dot.png" alt="" class="dot">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flexslide">
+                        <img src="Capture4.PNG" alt="" class="client2">
+                        <div class="advise1">
+                            <h3>Martyna Perry</h3> <br>
+                            <p>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
+                            <img src="Dot.png" alt="" class="dot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <img src="Group 71.png" alt="" class="img71">
+    </section>
     
     <script src="app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         AOS.init();
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
     </script>
 </body>
 </html>
