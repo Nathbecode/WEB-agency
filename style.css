@@ -26,6 +26,7 @@ img {
 }
 /* STYLE */
 
+/* HEADER */
 .container-color1{
     background-color: white;
 }
@@ -79,6 +80,8 @@ ul a:hover {
 .header span {
     font-weight: bolder;
 }
+
+/* END HEADER */
 
 .container-color2 {
     background-color: white;
@@ -167,6 +170,8 @@ p {
     float: right;
 }
 
+/* MODAL INIT */
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -222,6 +227,10 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* MODAL END */
+
+
 .container3{
     background-color: white;
 }
@@ -473,7 +482,7 @@ p {
 
 .ellipse872{
     width: 120px;
-    transform: translate(-500px,350px);
+    transform: translate(-450px,350px);
 }
 
 .img71{
@@ -526,38 +535,159 @@ p {
 /* NEWS LETTER - CONTACT */
 
 .container7 {
-    margin: 0 auto;
+    margin: 20px auto;
+    position:relative;
     min-height: 450px;
     max-width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .newsletter{
-    z-index: 1;
+    z-index: 2;
+    margin: 50px;
     position: relative;
     height: 300px;
-    width: 90%;
+    width: 1600px;
     background-color: rgba(244, 249, 255, 1);
     border-radius: 75px;
-    transform: translate();
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hoja{
     z-index: 0;
     position: relative;
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 140px;
     background: rgba(255, 245, 219, 1);
     border-radius: 0% 50%;
-    transform: translate(-950px,130px) ;
+    transform: translate(10px,-280px) ;
 }
 
-.dott{
-    z-index: 0;
+.contact{
+    z-index: 2;
+    position: relative;
+    width: 540px;
+    height: 300px;
+    background: rgba(38, 57, 237, 1);
+    border-radius: 30% 15% 15% 45%;
+    display: flex;
+    align-items: center;
+}
+
+.dott2{
+    z-index: 1;
     position: relative;
     width: 200px;
     height: 120px;
-    transform: translate(960px,-120px);
+    transform: translate(1150px,-440px);
+}
+
+.textinNews{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.textinNews>h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.newsletter>.contact>.btncontact>button{
+    width: 200px;
+    max-height: 65px;
+    background-color: rgba(38,57,237,1);
+    border-radius: 60px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    letter-spacing: 6.5%;
+    font-weight:600;
+    padding: 15px;
+    transform: translate(-208px,5px);
+    border: 2px solid rgba(38, 57, 237, 1); 
+}
+
+.newsletter>.contact>.btncontact>input{
+    height: 75px;
+    width: 460px;
+    border-radius: 60px;
+    border: 2px solid white;
+    background-color: white;
+    padding: 12px;
+}
+
+.btncontact{
+    display: flex;
+    transform: translate(-40px);
+}
+
+.newsletter>.btncontact>button{
+    z-index: 2;
+    position: relative;
+}
+
+
+/* LAST SECTION FOOTER */
+
+.container8{
+
+}
+
+.header2{
+    margin: 0px 20px auto;
+    max-width: 100%;
+    min-height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+    transform: translateY(-100px);
+}
+
+.header2>ul>li,
+.header2>a {
+    font-size: 22px;
+    font-weight: 370;
+    line-height: 30px;
+}
+.header2>a{
+    font-size: 30px;
+    width: 300px;
+}
+.header2>ul {
+    gap: 135px;
+}
+
+.footer{
+    margin: 0px 20px auto;
+    max-width: 100%;
+    min-height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+    transform: translateY(-100px);
+}
+
+.footer>ul{
+    gap: 135px;
+}
+.footer>p{
+    width: 300px;
+}
+.last-li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
 }
