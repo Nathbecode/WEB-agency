@@ -25,4 +25,3 @@ This project is a **static web page** designed to showcase front-end web design 
 ## To view the project:
 1. The link to the final page : []().
 
-This project is ideal for design demonstrations or as a template for more complex web projects.
