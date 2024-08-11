@@ -1,3 +1,5 @@
+// https://www.figma.com/design/LlKlRQ31ShrIRYDrtxKuRW/Studio-Design-Landin-Page-(Community)?node-id=0-1&t=wLqgFIMYm7v8j0Rf-0
+
 // Get modal element
 var modal = document.getElementById('myModal');
 
