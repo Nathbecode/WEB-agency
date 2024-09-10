@@ -24,3 +24,9 @@ This project is a **static web page** designed to showcase front-end web design 
 
 ## Link : [Web Agency](https://nathbecode.github.io/WEB-agency/).
 
+![Screenshot](https://github.com/Nathbecode/WEB-agency/blob/main/Pictures/WEBA1.PNG)
+![Screenshot](https://github.com/Nathbecode/WEB-agency/blob/main/Pictures/WEBA2.PNG)
+![Screenshot](https://github.com/Nathbecode/WEB-agency/blob/main/Pictures/WEBA3.PNG)
+
+
+
