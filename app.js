@@ -78,8 +78,13 @@ function checkUser() {
     }
 }
 
-// Prevent form submission
-document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    console.log(`Your username is: ${document.getElementById('username').value}, and your email is: ${document.getElementById('email').value}`);
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const burgerMenu = document.getElementById("burgerMenu");
+    const navMenu = document.getElementById("navMenu");
+
+    burgerMenu.addEventListener("click", function () {
+        navMenu.classList.toggle("active");
+    });
 });
