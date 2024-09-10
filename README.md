@@ -13,7 +13,7 @@ This project is a **static web page** designed to showcase front-end web design 
 - **Newsletter Subscription:** Allows users to subscribe via email, triggering a modal.
 - **Footer Section:** Provides additional navigation and agency information.
 
-## Technology Stack
+## Technology Used
 - **HTML & CSS:** Structure and styling, with a separate `style.css` file.
 - **JavaScript:** Manages modals, form validation, and prevents form submission.
 - **External Libraries:** AOS for animations and Swiper.js for the testimonial slider.
