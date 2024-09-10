@@ -22,6 +22,5 @@ This project is a **static web page** designed to showcase front-end web design 
 - **Static Content:** No backend or dynamic data handling.
 - **Purpose:** Demonstrates styling capabilities; not intended for deployment as a fully functional site.
 
-## To view the project:
-1. The link to the final page : [Web Agency](https://nathbecode.github.io/WEB-agency/).
+## Link : [Web Agency](https://nathbecode.github.io/WEB-agency/).
 
