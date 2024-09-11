@@ -8,15 +8,15 @@ This project is a **static web page** designed to showcase front-end web design 
 - **Hero Section:** Includes a tagline and a call-to-action button that opens a contact modal.
 - **Modal Contact Form:** Features email and message fields with basic validation.
 - **Client Section:** Displays logos of notable clients (e.g., Google, Amazon).
-- **Services Section:** Describes the agency's offerings with scroll animations (AOS).
-- **Testimonial Carousel:** Swiper.js-powered carousel featuring client feedback.
+- **Services Section:** Describes the agency's offerings with scroll animations (**AOS**).
+- **Testimonial Carousel:** **Swiper.js-powered** carousel featuring client feedback.
 - **Newsletter Subscription:** Allows users to subscribe via email, triggering a modal.
 - **Footer Section:** Provides additional navigation and agency information.
 
 ## Technology Used
 - **HTML & CSS:** Structure and styling, with a separate `style.css` file.
 - **JavaScript:** Manages modals, form validation, and prevents form submission.
-- **External Libraries:** AOS for animations and Swiper.js for the testimonial slider.
+- **External Libraries:** **AOS** for animations and **Swiper.js** for the testimonial slider.
 
 ## Limitations
 - **Static Content:** No backend or dynamic data handling.
