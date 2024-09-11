@@ -13,7 +13,7 @@ This project is a **static web page** designed to showcase front-end web design 
 - **Newsletter Subscription:** Allows users to subscribe via email, triggering a modal.
 - **Footer Section:** Provides additional navigation and agency information.
 
-## Technology Stack
+## Technology Used
 - **HTML & CSS:** Structure and styling, with a separate `style.css` file.
 - **JavaScript:** Manages modals, form validation, and prevents form submission.
 - **External Libraries:** AOS for animations and Swiper.js for the testimonial slider.
@@ -22,6 +22,11 @@ This project is a **static web page** designed to showcase front-end web design 
 - **Static Content:** No backend or dynamic data handling.
 - **Purpose:** Demonstrates styling capabilities; not intended for deployment as a fully functional site.
 
-## To view the project:
-1. The link to the final page : []().
+## Link : [Web Agency](https://nathbecode.github.io/WEB-agency/).
+
+![Screenshot](https://github.com/Nathbecode/WEB-agency/blob/main/Pictures/WEBA1.PNG)
+![Screenshot](https://github.com/Nathbecode/WEB-agency/blob/main/Pictures/WEBA2.PNG)
+![Screenshot](https://github.com/Nathbecode/WEB-agency/blob/main/Pictures/WEBA3.PNG)
+
+
 
