@@ -39,7 +39,7 @@ img {
 .container-color1>.header {
     margin: 0 auto;
     max-width: 100%;
-    min-height: 85px;
+    min-height: 15%;
     padding: 25px;
     display: flex;
     flex-direction: row;
@@ -68,9 +68,9 @@ ul {
 }
 
 .header a{
-    padding: 15px;
+    padding: 18px;
     font-family: 'Montserrat';
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Default styles for the burger menu (hidden on larger screens) */
@@ -119,12 +119,13 @@ ul a:hover {
 
 .container2 {
     margin: 0 auto;
-    min-height: 80%;
+    min-height: 90%;
     max-width: 100%;
     display: flex;
     flex-direction: row;
     column-gap: 20px;
     position: relative;
+    padding-left: 25px;
 }
 
 .news {
@@ -162,7 +163,7 @@ h3 {
 }
 p {
     font-family: 'Montserrat';
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 20.88px;
     text-align: left;
@@ -303,13 +304,9 @@ input{
 
 /* MODAL END */
 
-
-.container3{
-    background-color: white;
-}
-
 .container3 {
-    margin: 0 auto;
+    background-color: white;
+    margin: 10px auto;
     max-width: 100%;
     min-height: 65px;
     display: flex;
@@ -318,7 +315,7 @@ input{
     align-items: center;
     box-sizing: border-box;
     column-gap: 25px;
-    padding: 25px;
+    padding: 35px;
 }
 
 .container3>ul {
@@ -332,9 +329,9 @@ input{
     min-height: 50vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     column-gap: 30px;
-    padding: 20px;
+    padding: 25px;
 }
 
 .help{
@@ -359,7 +356,7 @@ input{
 }
 
 .aosslides{
-    width: 308px;
+    width: 70%;
     height: 379px;
     border-radius: 40px;
     background-color: white;
@@ -408,7 +405,7 @@ input{
 
 .rect28{
     z-index: 0;
-    width: 120px;
+    width: 40%;
     height: 120px;
     position: absolute;
     transform: translateY(-120px);
@@ -421,7 +418,7 @@ input{
 
 .rectyellow{
     z-index: 0;
-    width: 120px;
+    width: 40%;
     height: 120px;
     position: absolute;
     transform: translateY(-120px);
@@ -434,7 +431,7 @@ input{
 
 .rectpink{
     z-index: 0;
-    width: 120px;
+    width: 40%;
     height: 120px;
     position: absolute;
     transform: translateY(-120px);
@@ -447,7 +444,7 @@ input{
 
 .rectvert{
     z-index: 0;
-    width: 120px;
+    width: 40%;
     height: 120px;
     position: absolute;
     transform: translateY(-120px);
@@ -484,12 +481,12 @@ input{
     max-width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
 }
 .video{
-    width: 50%;
+    width: 40%;
 }
 .videor{
     z-index: 1;
@@ -511,7 +508,7 @@ input{
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
-    width: 50%;
+    width: 40%;
 }
 
 .contain5>h1 {
@@ -737,6 +734,9 @@ input{
     padding: 35px;
     transform: translateY(-100px);
 }
+.header2 > ul {
+    min-width: 50%;
+}
 
 .header2>ul>li {
     font-size: 22px;
@@ -778,6 +778,7 @@ input{
 
 .footer>ul{
     gap: 135px;
+    min-width: 50%;
 }
 .footer>.content1>p{
     width: 300px;
@@ -797,6 +798,8 @@ input{
     cursor: pointer;
     display: flex;
     gap: 15px;
+    margin-top: 10px;
+
 }
 
 hr{
@@ -926,6 +929,12 @@ hr{
     .videor{
         margin: 15px;
     }
+    .video{
+        width: 95%;
+    }
+    .contain5{
+        width: 95%;
+    }
     .img71{
         display: none;
     }
@@ -999,6 +1008,7 @@ hr{
         justify-content: center;
     }
     .logos{
+        margin-top: 10px;
         padding: 15px;
     }
     .footer>.content1>p{
